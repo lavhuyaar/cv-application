@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1230px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .resume-container {
+    min-width: auto;
+    min-height: 800px;
+  }
+
+  .name-heading {
+    font-size: 3.5rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+
+  .resume-heading {
+    font-size: 1.7rem;
+  }
+
+  .education-details,
+  .work-experience-details {
+    gap: 10px;
+  }
+
+  .resume-education-institution,
+  .resume-work-company {
+    font-size: 1.1rem;
+  }
+
+  .skills-details > h2 {
+    margin-bottom: 10px;
+  }
+
+  main {
+    gap: 30px;
+    padding: 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .resume-container {
+    min-height: 700px;
+    padding: 40px;
+  }
+
+  a {
+    font-size: 1.1rem;
+  }
+
+  .personal-links {
+    gap: 24px;
+  }
+
+  .name-heading {
+    font-size: 3rem;
+  }
+
+  .resume-heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .edit-btn {
+    width: 120px;
+    height: 50px;
+  }
+
+  .resume-container {
+    padding: 15px;
+    gap: 30px;
+    min-height: 500px;
+  }
+
+  label,
+  input {
+    font-size: 1.1rem;
+  }
+
+  .education-details {
+    margin-top: 10px;
+  }
+
+  .name-heading {
+    font-size: 2.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .resume-heading {
+    font-size: 1.2rem;
+  }
+
+  .resume-education-institution,
+  .resume-work-company,
+  ul {
+    font-size: 1rem;
+  }
+
+  .resume-education-degree,
+  .resume-work-role {
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  label,
+  input,
+  button {
+    font-size: 0.9rem;
+  }
+
+  .personal-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+
+  .resume-education-duration,
+  .resume-work-duration {
+    padding-left: 30px;
+  }
+
+  main {
+    padding: 30px;
+  }
+
+  .form-heading {
+    font-size: 1.1rem;
+  }
+
+  label {
+    gap: 10px;
+  }
+}
